@@ -67,7 +67,7 @@ const BlogPage = () => {
 
 
     return (
-        <MainContainer
+      <MainContainer
         variants={container}
         initial='hidden'
         animate='show'
@@ -75,25 +75,23 @@ const BlogPage = () => {
             opacity:0, transition:{duration: 0.5}
         }}
         >
-            <Container>
-                <LogoComponent />
-                <PowerButton />
-                <SocialIcons />
-                <AnchorComponent number={numbers}/>
-<Center>
-<Grid>
-
-{
-    Blogs.map(blog => {
-        return <BlogComponent key={blog.id} blog={blog} />
-    })
-}
-</Grid>
-
-</Center>
-<BigTitle text="BLOG" top="5rem" left="5rem" />
-            </Container>
-        </MainContainer>
+				<Container>
+					<LogoComponent />
+					<PowerButton />
+					<SocialIcons />
+					<AnchorComponent number={numbers}/>
+					<Center>
+						<Grid>
+							{
+								Blogs.map(blog => {
+									return <BlogComponent key={blog.id} blog={blog} />
+								})
+							}
+						</Grid>
+					</Center>
+					<BigTitle text="BLOG" top="5rem" left="5rem" />
+				</Container>
+      </MainContainer>
     )
 }
 

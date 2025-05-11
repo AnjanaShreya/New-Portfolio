@@ -12,6 +12,8 @@ import WorkPage from "./components/WorkPage";
 import MySkillsPage from "./components/MySkillsPage";
 import SoundBar from "./subComponents/SoundBar";
 import ContactMe from "./components/ContactMe";
+import Education from "./components/Education";
+import Certificates from "./components/Certificates";
 
 function App() {
   const location = useLocation();
@@ -41,6 +43,10 @@ function App() {
             <Route path="/skills" element={<MySkillsPage />} />
 
             <Route path="/contactme" element={<ContactMe />} />
+
+            <Route path="/education" element={<Education />} />
+
+            <Route path="/certificates" element={<Certificates />} />
             
             <Route path="*" element={<Main />} />
           </Routes>
