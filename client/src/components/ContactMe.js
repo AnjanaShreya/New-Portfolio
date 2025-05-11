@@ -232,7 +232,8 @@ const ContactMe = () => {
     setStatus({ submitting: true, message: 'Sending...', error: false });
   
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
+      // const response = await fetch('http://localhost:5000/api/contact', {
+      const response = await fetch('https://new-portfolio-e6y6.onrender.com/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -8,7 +8,8 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://anjanashreya.github.io/New-Portfolio/', // Replace with your frontend URL
+  // origin: 'https://anjanashreya.github.io/New-Portfolio/', \
+  origin: 'https://anjanashreya.github.io',
   credentials: true
 }));
 app.use(bodyParser.json());
