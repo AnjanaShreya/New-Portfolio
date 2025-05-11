@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/New-Portfolio/static/css/main.58462fbc.css",
+    "main.js": "/New-Portfolio/static/js/main.cb59d0a4.js",
+    "static/media/u-said-it-v13-1167.mp3": "/New-Portfolio/static/media/u-said-it-v13-1167.becd66496be9c81ddf9d.mp3",
+    "static/media/prof.png": "/New-Portfolio/static/media/prof.7598844a7ab9f350e03c.png",
+    "static/media/blogpage.png": "/New-Portfolio/static/media/blogpage.507237c3f1f5f6decdff.png",
+    "static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg": "/New-Portfolio/static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.8ca90014fb6ce5980110.jpg",
+    "static/media/cert1.png": "/New-Portfolio/static/media/cert1.a24aacd84656f30adbef.png",
+    "static/media/EPALS.png": "/New-Portfolio/static/media/EPALS.0a6eef09cae1440ccb57.png",
+    "static/media/chatbot.png": "/New-Portfolio/static/media/chatbot.341925452c22a6aeb330.png",
+    "static/media/AnjanaShreya.pdf": "/New-Portfolio/static/media/AnjanaShreya.4d31573f5787ae9f8a86.pdf",
+    "static/media/cert2.png": "/New-Portfolio/static/media/cert2.f532985bd6287ac6d0ce.png",
+    "static/media/iks.png": "/New-Portfolio/static/media/iks.f4a550d228d6b4df618d.png",
+    "static/media/cert3.png": "/New-Portfolio/static/media/cert3.a81a5288fd756a520b3a.png",
+    "static/media/122.png": "/New-Portfolio/static/media/122.4d450c5eb84d7b7d29c9.png",
+    "static/media/spaceman.png": "/New-Portfolio/static/media/spaceman.5ec7fcfa9a803ead726c.png",
+    "index.html": "/New-Portfolio/index.html",
+    "main.58462fbc.css.map": "/New-Portfolio/static/css/main.58462fbc.css.map",
+    "main.cb59d0a4.js.map": "/New-Portfolio/static/js/main.cb59d0a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58462fbc.css",
+    "static/js/main.cb59d0a4.js"
+  ]
+}
