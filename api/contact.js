@@ -8,7 +8,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000', // Replace with your frontend URL
+  origin: 'https://new-portfolio-su64.onrender.com', // Replace with your frontend URL
   credentials: true
 }));
 app.use(bodyParser.json());

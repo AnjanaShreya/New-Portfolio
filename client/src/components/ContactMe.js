@@ -227,56 +227,13 @@ const ContactMe = () => {
     }));
   };
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   setStatus({ submitting: true, message: 'Sending...', error: false });
-
-  //   try {
-  //     const response = await fetch('http://localhost:5000/api/contact', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //       },
-  //       body: JSON.stringify(formData),
-  //     });
-
-  //     const data = await response.json();
-
-  //     if (!response.ok) {
-  //       throw new Error(data.error || 'Failed to send message');
-  //     }
-
-  //     setStatus({ 
-  //       submitting: false, 
-  //       message: 'Message sent successfully!', 
-  //       error: false 
-  //     });
-  //     setFormData({ name: '', email: '', message: '' });
-      
-  //     setTimeout(() => {
-  //       setStatus({ submitting: false, message: '', error: false });
-  //     }, 5000);
-  //   } catch (error) {
-  //     console.error('Error:', error);
-  //     setStatus({ 
-  //       submitting: false, 
-  //       message: error.message || 'Failed to send message. Please try again.', 
-  //       error: true 
-  //     });
-      
-  //     setTimeout(() => {
-  //       setStatus({ submitting: false, message: '', error: false });
-  //     }, 5000);
-  //   }
-  // };
-
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus({ submitting: true, message: 'Sending...', error: false });
   
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
+      // const response = await fetch('http://localhost:5000/api/contact', {
+      const response = await fetch('https://new-portfolio-backend-nlj4.onrender.com/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
