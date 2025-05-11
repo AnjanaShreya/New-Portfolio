@@ -232,8 +232,7 @@ const ContactMe = () => {
     setStatus({ submitting: true, message: 'Sending...', error: false });
   
     try {
-      // const response = await fetch('http://localhost:5000/api/contact', {
-      const response = await fetch('https://new-portfolio-backend-nlj4.onrender.com/api/contact', {
+      const response = await fetch('http://localhost:5000/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
