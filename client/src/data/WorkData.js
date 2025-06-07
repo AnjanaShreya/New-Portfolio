@@ -3,14 +3,22 @@
 export const Work = [
     {
         id:1,
+        company:"Hivel",
+        role: "Frontend Developer",
+        period: "Jun 2025 - Present",
+        description:"Worked on various real-time projects.... ",
+        tags:["ReactJS","NodeJS","MongoDB", "ViteJS"],
+    },
+    {
+        id:2,
         company:"EdgeForce Solutions",
         role: "Frontend Developer",
-        period: "Jan 2021 - Present",
+        period: "Jan 2025 - May 2025",
         description:"Worked on real-time sensor data projects involving API data fetching, analysis, and frontend visualization. Used AWS Lambda with DynamoDB and integrated it with MongoDB to enable live data updates.",
         tags:["ReactJS","NodeJS","MongoDB","AWS", "ViteJS"],
     },
     {
-        id:2,
+        id:3,
         company: "Suvidha Foundation",
         role: "Web Developer",
         description:"Created a replica of the official Suvidha Foundation website using HTML, CSS, and JavaScript as part of my web development internship assignment.",
@@ -20,7 +28,7 @@ export const Work = [
         github:"https://github.com/AnjanaShreya/Suvidha-Foundation"
     },
     {
-        id:3,
+        id:4,
         company:"EdgeForce Solutions",
         role: "Frontend Developer",
         period: "Jul 2024 - Sept 2024",

@@ -286,7 +286,7 @@ const Card = (props) => {
   return (
     <Box key={id} variants={Item}>
       <div>
-        <Company>{company}</Company>
+        <Company>{company}</Company><br />
         <Role>{role}</Role>
         <Period>{period}</Period>
         <Description>
